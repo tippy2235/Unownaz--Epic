@@ -1,5 +1,5 @@
 local ezlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Modules/EzLib.lua"))();
-local mainGUI = ezlib.create("My Script");
+local mainGUI = ezlib.create("Solara Hub");
 
 
 ---Tabs
@@ -202,3 +202,5 @@ DDayScript.newDiv();
 DDayScript.newButton("D Day Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 end)
+
+
