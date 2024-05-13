@@ -8,19 +8,19 @@ local Arsenaltab = mainGUI.newTab("Arsenal");
 local BladeBall = mainGUI.newTab("BladeBall");
 local PhantomForces = mainGUI.newTab("Phantom Forces");
 local DustyTrip = mainGUI.newTab("Dusty Trip");
-local MURDERMYSTER2 = mainGUI.newTab("MURDER-MYSTER-2");
+local MURDERMYSTER2 = mainGUI.newTab("MM2");
 local BloxFruits = mainGUI.newTab("BloxFruits");
 local CounterBlox = mainGUI.newTab("CounterBlox");
 local TowerOfHell = mainGUI.newTab("Tower Of Hell");
 local BuildABoat = mainGUI.newTab("Build A Boat");
-local UTG = mainGUI.newTab("Untitled-Tag-Game");
-local FleeTheFacility = mainGUI.newTab("Flee The Facility");
+local UTG = mainGUI.newTab("UTG");
+local FleeTheFacility = mainGUI.newTab("FleeTheFacility");
 local AntiAfk = mainGUI.newTab("Anti-Afk");
 local PetSim99 = mainGUI.newTab("PetSim99");
 local DrivingEmpire = mainGUI.newTab("Driving Empire");
 local SlapBattles = mainGUI.newTab("Slap-Battles");
 local NavalWarfare = mainGUI.newTab("Naval Warfare");
-local WorkAtPizzaPlace = mainGUI.newTab("Work At Pizza Place");
+local WorkAtPizzaPlace = mainGUI.newTab("WorkAtPizzaPlace");
 local DDayScript = mainGUI.newTab("D-DayScript");
 
 
