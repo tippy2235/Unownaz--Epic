@@ -72,7 +72,7 @@ end)
 
 MURDERMYSTER2.newTitle("murder-mystery-2 Scripts");
 MURDERMYSTER2.newDiv();
-MURDERMYSTER2.newButton("murder-mystery-2", function()
+MURDERMYSTER2.newButton("MM2", function()
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end)
 
@@ -110,9 +110,9 @@ end)
 
 ---------------------------------------------------------UTG
 
-UTG.newTitle("Untitled-Tag-Game Scripts");
+UTG.newTitle("UTG Scripts");
 UTG.newDiv();   
-UTG.newButton("Untitled-Tag-Game", function()
+UTG.newButton("UTG", function()
     loadstring(gameHttpGet(httpsraw.githubusercontent.comZer0idsQwertymainUntitledTagNewScript.lua))()
 end)
 
