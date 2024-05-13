@@ -70,7 +70,7 @@ end)
 
 ---------------------------------------------------------MM2
 
-MURDERMYSTER2.newTitle("murder-mystery-2 Scripts");
+MURDERMYSTER2.newTitle("MM2 Scripts");
 MURDERMYSTER2.newDiv();
 MURDERMYSTER2.newButton("MM2", function()
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
