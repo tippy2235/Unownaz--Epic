@@ -34,15 +34,15 @@ if game.PlaceId == 13772394625 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
 end
 
-if game.PlaceId == 292439477 then
+if game.PlaceId == 16389395869 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
 end
 
-if game.PlaceId == 16389395869 then
+if game.PlaceId == 142823291 then
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 end
 
-if game.PlaceId == 142823291 then
+if game.PlaceId == 2753915549 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua"))()
 end
 
