@@ -1,186 +1,91 @@
-local ezlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Modules/EzLib.lua"))();
-local mainGUI = ezlib.create("Solara Hub");
+if game.PlaceId == 2788229376 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Solara Hub|Da-Hood", "DarkTheme")
+    local Tab = Window:NewTab("Da-Hood Scripts")
+    local Section = Tab:NewSection("Da-Hood Scripts")
+    Section:NewButton("Unownaz--Epic", "Unownaz--Epic", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Unownaz--Epic.lua"))()
+    end)
 
+    Section:NewButton("Azure Modded", "Azure Modded", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/neMabYbU"))()
+    end)
 
----Tabs
-local Dahoodtab = mainGUI.newTab("Da-Hood");
-local Arsenaltab = mainGUI.newTab("Arsenal");
-local BladeBall = mainGUI.newTab("BladeBall");
-local PhantomForces = mainGUI.newTab("Phantom Forces");
-local DustyTrip = mainGUI.newTab("Dusty Trip");
-local MURDERMYSTER2 = mainGUI.newTab("MM2");
-local BloxFruits = mainGUI.newTab("BloxFruits");
-local CounterBlox = mainGUI.newTab("CounterBlox");
-local TowerOfHell = mainGUI.newTab("Tower Of Hell");
-local BuildABoat = mainGUI.newTab("Build A Boat");
-local UTG = mainGUI.newTab("UTG");
-local FleeTheFacility = mainGUI.newTab("FleeTheFacility");
-local AntiAfk = mainGUI.newTab("Anti-Afk");
-local PetSim99 = mainGUI.newTab("PetSim99");
-local DrivingEmpire = mainGUI.newTab("Driving Empire");
-local SlapBattles = mainGUI.newTab("Slap-Battles");
-local NavalWarfare = mainGUI.newTab("Naval Warfare");
-local WorkAtPizzaPlace = mainGUI.newTab("WorkAtPizzaPlace");
-local DDayScript = mainGUI.newTab("D-DayScript");
+    Section:NewButton("Capslock", "Capslock", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/whoiscapslock/capslock/main/main", true))()
+    end)
+end
 
+if game.PlaceId == 286090429 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Solara Hub|Arsenal", "DarkTheme")
+    local Tab = Window:NewTab("Arsenal Scripts")
+    local Section = Tab:NewSection("Arsenal Scripts")
+    Section:NewButton("Inf Yeild + Esp", "Inf Yeild + Esp", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Arsenal.lua", true))()
+    end)
 
+    Section:NewButton("Leg Hub", "Leg Hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cris123452/my/main/cas",true))()
+    end)
+end
 
----Tab Sections
-Dahoodtab.newTitle("Da-Hood Scripts");
-Dahoodtab.newDiv();
-Dahoodtab.newButton("Unownaz--Epic", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Unownaz--Epic.lua"))()
-end)
-
-Dahoodtab.newButton("Azure Modded", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/neMabYbU"))()
-end)
-
-Dahoodtab.newButton("Capslock", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/whoiscapslock/capslock/main/main", true))()
-end)
-
----------------------------------------------------------Arsenal
-
-Arsenaltab.newTitle("Arsenal Scripts");
-Arsenaltab.newDiv();
-Arsenaltab.newButton("Inf Yeild", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Arsenal.lua", true))()
-end)
-
-Arsenaltab.newButton("Leg Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/cris123452/my/main/cas",true))()
-end)
-
-----------------------------------------------------------BladeBall
-
-BladeBall.newTitle("BladeBall Scripts");
-BladeBall.newDiv();
-BladeBall.newButton("Auto Parry", function()
+if game.PlaceId == 13772394625 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
-end)
+end
 
-
----------------------------------------------------------Dusty Trip
-DustyTrip.newTitle("Dusty Trip Scripts");
-DustyTrip.newDiv();
-DustyTrip.newButton("Dusty Trip", function()
+if game.PlaceId == 292439477 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTrip",true))()
-end)
+end
 
----------------------------------------------------------MM2
-
-MURDERMYSTER2.newTitle("MM2 Scripts");
-MURDERMYSTER2.newDiv();
-MURDERMYSTER2.newButton("MM2", function()
+if game.PlaceId == 16389395869 then
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
-end)
+end
 
----------------------------------------------------------BloxFruits
-
-BloxFruits.newTitle("BloxFruits Scripts");
-BloxFruits.newDiv();   
-BloxFruits.newButton("BloxFruits", function()
+if game.PlaceId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Yatsuraa/Yuri/main/Winterhub_V2.lua"))()
-end)
+end
 
----------------------------------------------------------CounterBlox
-
-CounterBlox.newTitle("CounterBlox Scripts");
-CounterBlox.newDiv();   
-CounterBlox.newButton("CounterBlox", function()
+if game.PlaceId == 301549746 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fliskScript/jaran.vip/main/free.lua"))()
-end)
+end
 
----------------------------------------------------------TowerOfHell
-
-TowerOfHell.newTitle("TowerOfHell Scripts");
-TowerOfHell.newDiv();   
-TowerOfHell.newButton("TowerOfHell", function()
+if game.PlaceId == 1962086868 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/sc0ttferren/robloxscripts/main/toh/sc0tt.lua'))()
-end)
+end
 
----------------------------------------------------------Build A Boat
-
-BuildABoat.newTitle("BuildABoat Scripts");
-BuildABoat.newDiv();   
-BuildABoat.newButton("BuildABoat", function()
+if game.PlaceId == 537413528 then
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/juywvm/-Roblox-Projects-/main/babft"))()
-end)
+end
 
----------------------------------------------------------UTG
-
-UTG.newTitle("UTG Scripts");
-UTG.newDiv();   
-UTG.newButton("UTG", function()
+if game.PlaceId == 8365905206 then
     loadstring(gameHttpGet(httpsraw.githubusercontent.comZer0idsQwertymainUntitledTagNewScript.lua))()
-end)
+end
 
----------------------------------------------------------FleeTheFacility  
-
-FleeTheFacility.newTitle("Untitled-Tag-Game Scripts");
-FleeTheFacility.newDiv();   
-FleeTheFacility.newButton("EVA", function()
+if game.PlaceId == 893973440 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/K9ntra/EVA/main/abc.lua'))()
-end)
+end
 
-
-------------------------------------------------------------Anti-Afk 
-
-AntiAfk.newTitle("AntiAfk | All Games");
-AntiAfk.newDiv();   
-AntiAfk.newButton("AntiAfk", function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Anti-afk.lua'))()
-end)
-
--------------------------------------------------------------PetSim99
-
-PetSim99.newTitle("Pet Sim 99 Scripts");
-PetSim99.newDiv();   
-PetSim99.newButton("Pet Sim 99", function()
+if game.PlaceId == 8737899170 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Petsim99.lua'))()
-end)
+end
 
-------------------------------------------------------------Driving Empire
-
-DrivingEmpire.newTitle("DrivingEmpire Scripts");
-DrivingEmpire.newDiv();   
-DrivingEmpire.newButton("DrivingEmpire AutoFarm", function()
+if game.PlaceId == 3351674303 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/drivingempire", true))()
-end)
+end
 
-------------------------------------------------------------Slap-Battles
-
-SlapBattles.newTitle("SlapBattles Scripts");
-SlapBattles.newDiv();   
-SlapBattles.newButton("Slap Battles - Gaster Hub", function()
+if game.PlaceId == 6403373529 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Dusty1234567890/TestMain/main/SLAPBATTLESGUI5")))()
-end)
+end
 
-------------------------------------------------------------Naval Warfare
-
-NavalWarfare.newTitle("NavalWarfare Scripts");
-NavalWarfare.newDiv();   
-NavalWarfare.newButton("NavalWarfare", function()
+if game.PlaceId == 2210085102 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/NavalWarfare.lua")))()
-end)
+end
 
-
-------------------------------------------------------------WorkAtPizzaPlace
-
-WorkAtPizzaPlace.newTitle("Work At Pizza Place Scripts");
-WorkAtPizzaPlace.newDiv();   
-WorkAtPizzaPlace.newButton("WAPP", function()
+if game.PlaceId == 192800 then
     loadstring(game:HttpGet("https://pastebin.com/raw/7Q5sN2wY",true))()
-end)
+end
 
-
-------------------------------------------------------------DDayScript
-
-DDayScript.newTitle("D Day Script Scripts");
-DDayScript.newDiv();   
-DDayScript.newButton("D Day Script", function()
+if game.PlaceId == 901793731 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
-end)
-
-
+end
