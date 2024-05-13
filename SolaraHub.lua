@@ -18,7 +18,7 @@ end
 
 if game.PlaceId == 286090429 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Solara Hub|Arsenal", "DarkTheme")
+    local Window = Library.CreateLib("Solara Hub | Arsenal", "DarkTheme")
     local Tab = Window:NewTab("Arsenal Scripts")
     local Section = Tab:NewSection("Arsenal Scripts")
     Section:NewButton("Inf Yeild + Esp", "Inf Yeild + Esp", function()
@@ -31,7 +31,7 @@ if game.PlaceId == 286090429 then
 end
 
 if game.PlaceId == 13772394625 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBall.lua"))()
 end
 
 if game.PlaceId == 16389395869 then
