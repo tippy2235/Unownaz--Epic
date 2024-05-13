@@ -133,7 +133,7 @@ AntiAfk.newButton("AntiAfk", function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/tippy2235/Unownaz--Epic/main/Anti-afk.lua'))()
 end)
 
-------------------------------------------------------------PetSim99
+-------------------------------------------------------------PetSim99
 
 PetSim99.newTitle("Pet Sim 99 Scripts");
 PetSim99.newDiv();   
